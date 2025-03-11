@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import "./App.css";
+import "./ComingSoon.css";
 
 const ComingSoon = () => {
   const { id } = useParams();

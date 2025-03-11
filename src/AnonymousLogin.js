@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { auth, signInAnonymously } from "./firebase";
+import { auth, signInAnonymously } from "./firebase/firebase";
 
 const AnonymousLogin = () => {
   const [user, setUser] = useState(null);
